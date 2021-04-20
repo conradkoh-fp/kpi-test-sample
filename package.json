@@ -4,9 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@types/mkdirp": "^1.0.1",
     "@types/node": "^14.14.41",
     "axios": "^0.21.1",
+    "mkdirp": "^1.0.4",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "diff": "code --diff src/diff/v1.txt src/diff/v2.txt"
   }
 }
